@@ -1,0 +1,10 @@
+group "top.byoung.demo"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+
+}
