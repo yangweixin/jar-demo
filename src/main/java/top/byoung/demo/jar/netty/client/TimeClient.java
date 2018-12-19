@@ -1,4 +1,4 @@
-package top.byoung.demo.netty.client;
+package top.byoung.demo.jar.netty.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,8 +8,8 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import top.byoung.demo.netty.client.handler.TimeClientHandler;
-import top.byoung.demo.netty.client.handler.TimeDecoder;
+import top.byoung.demo.jar.netty.client.handler.TimeClientHandler;
+import top.byoung.demo.jar.netty.client.handler.TimeDecoder;
 
 public class TimeClient {
     public static void main(String[] args) throws Exception {

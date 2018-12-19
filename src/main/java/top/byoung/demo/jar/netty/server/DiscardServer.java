@@ -1,4 +1,4 @@
-package top.byoung.demo.netty.server;
+package top.byoung.demo.jar.netty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,8 +8,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import top.byoung.demo.netty.server.handler.DiscardServerHandler;
-import top.byoung.demo.netty.server.handler.TimeServerHandler;
+import top.byoung.demo.jar.netty.server.handler.TimeServerHandler;
 
 public class DiscardServer {
 

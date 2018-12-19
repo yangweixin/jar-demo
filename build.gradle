@@ -1,3 +1,7 @@
+plugins {
+    id 'java'
+}
+
 group "top.byoung.demo"
 
 repositories {
@@ -6,5 +10,5 @@ repositories {
 }
 
 dependencies {
-
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.32.Final'
 }

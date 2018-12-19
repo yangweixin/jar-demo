@@ -1,4 +1,4 @@
-package top.byoung.demo.netty.server.handler;
+package top.byoung.demo.jar.netty.server.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
