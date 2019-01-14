@@ -1,4 +1,4 @@
-package top.byoung.demo.jar.concurrency.jvm;
+package top.byoung.demo.jar.concurrency.classloader;
 
 public class Singleton {
 

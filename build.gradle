@@ -11,4 +11,6 @@ repositories {
 
 dependencies {
     compile group: 'io.netty', name: 'netty-all', version: '4.1.32.Final'
+
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
 }
