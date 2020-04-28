@@ -76,8 +76,9 @@ public class BasicThreadPool extends Thread implements ThreadPool {
             }
 
             synchronized (this) {
-                if (isShutdown)
+                if (isShutdown) {
                     break;
+                }
 
                 if (runnableQueue.size() > 0 && activeCount < coreSize) {
                     for (int i = initSize; i < coreSize; i++) {
@@ -112,8 +113,9 @@ public class BasicThreadPool extends Thread implements ThreadPool {
     @Override
     public void shutdown() {
         synchronized (this) {
-            if (isShutdown)
+            if (isShutdown) {
                 return;
+            }
 
             isShutdown = true;
             threadQueue.forEach(threadTask -> {

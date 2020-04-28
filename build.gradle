@@ -11,6 +11,13 @@ repositories {
 
 dependencies {
     compile group: 'io.netty', name: 'netty-all', version: '4.1.32.Final'
-
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
+    compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.4'
+    compile group: 'cglib', name: 'cglib', version: '3.3.0'
+    compile group: 'org.objenesis', name: 'objenesis', version: '3.1'
+    compile group: 'com.dyuproject.protostuff', name: 'protostuff-core', version: '1.1.5'
+    compile group: 'com.dyuproject.protostuff', name: 'protostuff-runtime', version: '1.1.5'
+    compile group: 'com.dyuproject.protostuff', name: 'protostuff-json', version: '1.1.5'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.0-alpha1'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.0-alpha1'
 }
