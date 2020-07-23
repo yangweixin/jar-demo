@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author: Yang Weixin
  * @create: 2019/12/10
  */
-public class User implements Serializable {
+public class User implements Serializable, Cloneable {
     private String name;
     private int age;
     private float weight;
@@ -49,5 +49,9 @@ public class User implements Serializable {
             ", age=" + age +
             ", weight=" + weight +
             '}';
+    }
+
+    public User copy() throws Exception{
+        return (User)this.clone();
     }
 }
